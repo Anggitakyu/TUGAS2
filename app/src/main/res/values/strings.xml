@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TUGASDTS</string>
+    <string name="lbsisi">Masukkan Nama Anda :</string>
+    <string name="hinteditnama">Silahkan Masukkan Nama Anda</string>
+    <string name="lbsalamat">Masukkan Alamat Anda :</string>
+    <string name="hinteditalamat">Silahkan Masukkan Alamat Anda</string>
+    <string name="btnsimpan">SIMPAN</string>
+</resources>

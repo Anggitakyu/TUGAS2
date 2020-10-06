@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="290dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="input"
+        android:layout_gravity="center"
+        android:text="Input Nama"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kalkulator"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:onClick="kalkulator"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listview"
+        android:onClick="listview"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="456dp" />
+</LinearLayout>
